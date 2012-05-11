@@ -1,7 +1,6 @@
 package com.genius.demo;
 
 
-
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.drawable.LevelListDrawable;
