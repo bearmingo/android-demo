@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	
+	
+	<ListView 
+		android:id="@+id/ListView"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_above="@+id/GridView_toolbar"
+		android:background="#ff222222"
+		android:listSelector="@drawable/list_item_selector">
+	</ListView>
+	
+	
+	<GridView 
+		android:id="@+id/GridView_toolbar"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:background="@drawable/toolbar_background"
+		android:numColumns="5"
+		android:horizontalSpacing="5.0dip"
+		android:verticalSpacing="10.0dip"
+		android:layout_alignParentBottom="true"
+		android:listSelector="@drawable/item_selector">
+	</GridView>
+	
+	
+
+	
+
+	
+</RelativeLayout>
+
+
